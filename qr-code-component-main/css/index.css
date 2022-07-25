@@ -1,0 +1,39 @@
+
+body{
+  background-color: rgb(213, 213, 243);
+   height:100vh; 
+   display:flex;
+   justify-content: center; /*This centers horizontally*/
+   align-items: center;/*This centers vertically*/
+}
+.container{
+   background-color: white;   
+   height: 500px;
+   border-radius: 20px;
+   text-align: center;
+   padding-top: 20px;
+   padding-left: 20px;
+   padding-right: 20px;
+   
+   }
+
+img{
+   width: 300px;
+   height: 300px;
+   border-radius: 20px;
+
+}
+
+.text1{
+   color: black;
+   font-size: 20px;
+   font-style:blod ;
+   font-family: sans-serif;
+   padding-top: 15px;
+}
+
+.text2{
+   color: grey;
+   font-family: sans-serif;
+   padding-top: 15px;
+}
