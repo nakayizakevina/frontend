@@ -1,10 +1,71 @@
 body{
   background-color: rgb(1, 1, 36);
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  position: absolute;
+  
 }
 .container{
    background-color: rgb(3, 3, 93);
-   width: ;
+   width: 400px;
+   height: 500px;
    border-radius: 20px;
+   display: flex;
+   justify-content: center;
+   justify-items: center;
+   align-items: center;
+   flex-direction: column;
+  
 
 }
+
+.Equilibrium{
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+  padding: 10px;
+ }
+
+.text1{
+  color: white;
+}
+
+.text2{
+  color: grey;
+}
+
+.text3{
+  color: aqua;
+}
+
+.avatar{
+  width: 40px;
+  height: 40px;
+}
+
+.contents{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px white solid;
+}
+
+.right-contents{
+  margin-right: 2px;
+  padding-right: 10px;
+}
+
+footer{
+  text-align: middle;
+  display: flex;
+  align-content: center;
+  position: relative;
+}
+
+.attribution{
+  font-size: 11px;
+  text-align: center;
+  color: hsl(228, 45%, 44%);
+  }
